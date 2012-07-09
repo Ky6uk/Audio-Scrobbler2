@@ -1,7 +1,6 @@
-NAME
-    Audio::Scrobbler2 - Interface to last.fm scrobbler API
+# Audio::Scrobbler2 - Interface to last.fm scrobbler API
 
-SYNOPSIS
+## Synopsis
 ```perl
     use Audio::Scrobbler2;
 
