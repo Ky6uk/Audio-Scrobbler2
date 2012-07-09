@@ -2,14 +2,14 @@
 
 ## Synopsis
 ```perl
-    use Audio::Scrobbler2;
+use Audio::Scrobbler2;
 
-    my $scrobbler = Audio::Scrobbler2->new($api_key, $api_secret);
-    my $api_token = $scrobbler->auth_getToken();
+my $scrobbler = Audio::Scrobbler2->new($api_key, $api_secret);
+my $api_token = $scrobbler->auth_getToken();
 
-    # web-auth required
-    # http://www.last.fm/api/auth/?api_key=$api_key&token=$api_token
-    my $api_session = $scrobbler->auth_getSession();
+# web-auth required
+# http://www.last.fm/api/auth/?api_key=$api_key&token=$api_token
+my $api_session = $scrobbler->auth_getSession();
 
-    $scrobbler->track_scrobble("Artist Name", "Track Name");
+$scrobbler->track_scrobble("Artist Name", "Track Name");
 ```
