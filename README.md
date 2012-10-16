@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Ky6uk/Audio-Scrobbler2.png)](https://travis-ci.org/Ky6uk/Audio-Scrobbler2)
+
 # Audio::Scrobbler2 - Interface to last.fm scrobbler API
 
 ## Synopsis
